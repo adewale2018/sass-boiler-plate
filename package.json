@@ -1,0 +1,22 @@
+{
+  "name": "sass-boiler-plate",
+  "version": "1.0.0",
+  "description": "Setting up the sass boiler plate.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adewale2018/sass-boiler-plate.git"
+  },
+  "author": "Saheed Adewale Shittu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adewale2018/sass-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/adewale2018/sass-boiler-plate#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
